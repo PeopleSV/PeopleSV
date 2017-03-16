@@ -1,0 +1,25 @@
+body {
+    font-family: "Open Sans";
+    background-color: #3579B7;
+    margin: 150px 0 0 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    background-color: red;
+}
