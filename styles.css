@@ -1,8 +1,11 @@
 body {
     font-family: "Open Sans";
     background-color: #3579B7;
-    margin: 155px 30px 0 30px;
+    margin: 0;
     padding: 0;
+    text-align: center;
+    color: #A3BCF9;
+    font-size: 25px;
 }
 
 h1 {
@@ -16,16 +19,23 @@ h1 {
 
 h2 {
     font-size: 50px;
-    text-align: center;
+}
+
+#slogan {
+    font-size: 10vh;
+    margin: 15vh 0;
 }
 
 header {
-    position: fixed;
-    left: 0;
-    top: 0;
+    height: 105vh;
+    width: 100%;
+}
+
+#banner {
     height: 135px;
     width: 100%;
     background-color: white;
+    color: black;
 }
 
 .option {
@@ -39,4 +49,22 @@ header {
     margin-right: 30px;
     float: right;
     width: auto;
+}
+
+.section {
+    padding: 15vh 20%;
+    color: #131515;
+}
+
+.section h2 {
+    padding: 0;
+    margin: 10px;
+    color: #A3BCF9;
+}
+
+.underline {
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    margin: 0 auto;
 }
