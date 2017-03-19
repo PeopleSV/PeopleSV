@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans";
-    background-color: #3579B7;
+    background-color: white;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -29,13 +29,12 @@ h2 {
 header {
     height: 105vh;
     width: 100%;
+    background-color: #3579B7;
 }
 
 #banner {
     height: 135px;
     width: 100%;
-    background-color: white;
-    color: black;
 }
 
 .option {
@@ -52,19 +51,38 @@ header {
 }
 
 .section {
-    padding: 15vh 20%;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 75px 0;
+    /* height: 105vh;   for abs height if necessary */
     color: #131515;
+}
+
+.wrapper {
+    /* position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);   for abs height if necessary */
+    width: 70%;
+    margin: 0 auto;
 }
 
 .section h2 {
     padding: 0;
-    margin: 10px;
+    margin: 20px;
     color: #A3BCF9;
 }
 
 .underline {
     height: 3px;
     width: 50px;
-    background-color: white;
+    background-color: #A3BCF9;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 60%;
+    height: 1px;
+    background-color: #AAAAAA;
     margin: 0 auto;
 }
