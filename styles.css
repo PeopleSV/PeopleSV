@@ -8,8 +8,16 @@ body {
     font-size: 25px;
 }
 
+a, a:visited {
+    color: #A3BCF9;
+}
+
 h1 {
     font-size: 50px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 #left {
@@ -19,6 +27,11 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+#pagename {
+    font-size: 10vh;
+    margin: 15vh 0 7.5vh 0;
 }
 
 #slogan {
