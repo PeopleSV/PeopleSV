@@ -49,7 +49,7 @@ header a {
     margin: 32.5px 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px), (orientation: portrait) {
     #left {
         background-color: yellow;
         float: none;
