@@ -5,6 +5,7 @@ body {
     padding: 0;
     text-align: center;
     color: #A3BCF9;
+    font-size: 25px;
     min-width: 575px;
 }
 
@@ -191,6 +192,46 @@ h4 {
 
 .description p {
     clear: both;
+}
+
+table, th, td {
+    position: relative;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table#reflection, table#reflection th, table#reflection td {
+    border: none;
+    text-align: right;
+}
+
+table#reflection td.caption {
+    text-align: left;
+    border-left: 1px solid black;
+}
+
+table#reflection img {
+    height: 100px;
+}
+
+th {
+    font-weight: bold;
+    background-color: #3579B7;
+    color: #A3BCF9;
+}
+
+.date {
+    width: 60px;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    font-size: 20px;
 }
 
 /*
