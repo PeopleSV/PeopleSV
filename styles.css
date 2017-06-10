@@ -112,7 +112,7 @@ header {
     font-size: 5vh;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px), (orientation: portrait) {
     #splashcontainer {
         height: calc(105vh - 222px);
     }
