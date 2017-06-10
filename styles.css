@@ -104,12 +104,12 @@ header {
 }
 
 #pagename {
-    font-size: 10vh;
+    font-size: 65px;
     margin-bottom: 25px;
 }
 
 #pagedetails {
-    font-size: 5vh;
+    font-size: 33px;
 }
 
 @media (max-width: 720px), (orientation: portrait) {
