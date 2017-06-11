@@ -202,20 +202,7 @@ table, th, td {
     margin: 0 auto;
     border-collapse: collapse;
     padding: 10px;
-}
-
-table#reflection, table#reflection th, table#reflection td {
-    border: none;
-    text-align: right;
-}
-
-table#reflection td.caption {
-    text-align: left;
-    border-left: 1px solid black;
-}
-
-table#reflection img {
-    height: 100px;
+    
 }
 
 th {
@@ -227,6 +214,35 @@ th {
 .date {
     width: 60px;
     text-align: center;
+}
+
+table.sleek {
+    text-align: center;
+    width: 90%;
+    border: none;
+}
+
+table.sleek th, table.sleek td {
+    width: 50%;
+    text-align: center;
+    border: none;
+}
+
+table.sleek td.top {
+    vertical-align: top;
+}
+
+table.sleek img {
+    float: right;
+    height: 100px;
+}
+
+table.sleek td.caption {
+    text-align: left;
+}
+
+table.sleek td:nth-child(2) {
+    border-left: 1px solid black;
 }
 
 ul {
