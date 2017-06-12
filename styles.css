@@ -1,3 +1,5 @@
+/* General Styles */
+
 body {
     font-family: "Open Sans";
     background-color: white;
@@ -9,13 +11,16 @@ body {
     min-width: 575px;
 }
 
-@media (min-width: 0px) {
-    
-}
-
 a, a:visited {
     color: #A3BCF9;
 }
+
+ul {
+    text-align: left;
+    font-size: 20px;
+}
+
+/* Header & Image Splash */
 
 h1 {
     font-size: 50px;
@@ -132,19 +137,17 @@ h2 {
     }
 }
 
+/* Section Styles, General */
+
 .section {
     position: relative;
     width: 100%;
     margin: 0;
     padding: 75px 0;
-    /* height: 105vh;   for abs height if necessary */
     color: #131515;
 }
 
 .wrapper {
-    /* position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);   for abs height if necessary */
     width: 70%;
     margin: 0 auto;
 }
@@ -153,12 +156,6 @@ h2 {
     padding: 0;
     margin: 20px;
     color: #A3BCF9;
-}
-
-h4 {
-    margin-top: 0;
-    color: grey;
-    font-weight: normal;
 }
 
 .underline {
@@ -175,6 +172,8 @@ h4 {
     margin: 0 auto;
 }
 
+/* Profile & Description Styles */
+
 .expert {
     float: left;
     width: 6em;
@@ -189,7 +188,7 @@ h4 {
 }
 
 .description h3 {
-    font-size: 1.45em; /* exact: 1.17em or 29.25px */
+    font-size: 1.45em;
     padding-top: 0.50em;
     margin-bottom: 0;
     margin-top: 0;
@@ -199,9 +198,17 @@ h4 {
     padding-top: 0;
 }
 
+h4 {
+    margin-top: 0;
+    color: grey;
+    font-weight: normal;
+}
+
 .description p {
     clear: both;
 }
+
+/* Table Styles, General */
 
 table, th, td {
     position: relative;
@@ -224,6 +231,8 @@ th {
     width: 60px;
     text-align: center;
 }
+
+/* Table Styles, Minimalist */
 
 table.sleek {
     text-align: center;
@@ -254,10 +263,4 @@ table.sleek td:nth-child(2) {
     border-left: 1px solid black;
 }
 
-ul {
-    text-align: left;
-    font-size: 20px;
-}
-
-/*
-for subheadings in sections, simply add an <h3> tag and proceed with your subheading content
+/* for subheadings in sections, simply add an <h3> tag and proceed with subheading content */
