@@ -21,8 +21,23 @@ h1 {
     font-size: 50px;
 }
 
-header a {
+header {
+    height: 105vh;
+    width: 100%;
+    background: rgba(53,121,183,1) url("img/pdbg.jpg");
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    background-size: cover;
+    color: #151515;
+}
+
+header a, header a:visited {
     text-decoration: none;
+    color: #151515;
+}
+
+header .underline {
+    background-color: #151515;
 }
 
 #banner {
@@ -70,12 +85,6 @@ header a {
 
 h2 {
     font-size: 50px;
-}
-
-header {
-    height: 105vh;
-    width: 100%;
-    background-color: #3579B7;
 }
 
 #splashcontainer {
